@@ -1,0 +1,49 @@
+.share-btn {
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  white-space: nowrap;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  background: #D2D2D2;
+  text-decoration: none;
+  border: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.share-btn.fb-share-btn {
+  background: #4267B2;
+}
+
+.share-btn.twitter-share-btn {
+  background: #00ACEE;
+}
+
+.share-btn.email-share-btn {
+  background: #9EA7B3;
+}
+
+.share-btn.linkedin-share-btn {
+  background: #0E76A8;
+}
+
+.share-btn.reddit-share-btn {
+  background: #FF5700;
+}
+
+.share-btn.vk-share-btn {
+  background: #6287AE;
+}
+
+.share-btn.google-share-btn {
+  background: #DD4B39;
+}
+
+.share-btn svg {
+  color: #FFFFFF;
+}

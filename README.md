@@ -15,25 +15,22 @@ There are two ways to embed share buttons to page.
 First, you can add share buttons one by one. Example:
 
     {{#fb-share-button}}Share{{/fb-share-button}}
+
     {{#vk-share-button}}Share{{/vk-share-button}}
+
     {{#twitter-share-button}}Tweet{{/twitter-share-button}}
+
     {{#linkedin-share-button}}Share{{/linkedin-share-button}}
-    {{#gplus-share-button}}Share{{/gplus-share-button}}
+
+    {{#google-share-button}}Share{{/google-share-button}}
+
     {{#email-share-button}}Share{{/email-share-button}}
+
     {{#reddit-share-button}}Share{{/reddit-share-button}}
 
-Or you can add share buttons like one share panel:
-
-    {{share-panel buttons="fb,vk,twitter,linkedin,gplus,email,reddit" labels="Share,Share,Tweet,Share,Share"}}
 
 There are some properties for any of share buttons:
 
-* _adaptive_ - boolean flag for adaptive design (default: _true_)
-
-There are some properties for ```share-panel```:
-
-* _buttons_ - comma-separated list of social networks
-* _labels_ - comma-separated list of buttons labels
 * _adaptive_ - boolean flag for adaptive design (default: _true_)
 
 At section below you can find share options that can be set for each button or panel.

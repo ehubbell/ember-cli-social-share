@@ -1,0 +1,1 @@
+export { default } from 'ember-cli-social-share/components/google-share-button';

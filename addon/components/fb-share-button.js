@@ -5,8 +5,10 @@ import layout from '../templates/components/fb-share-button';
 export default ShareButton.extend({
   layout,
   shareURL: 'https://facebook.com/sharer.php',
-  classNames: ['fb-share-button', 'share-button'],
+  classNames: ['fb-share-btn', 'share-btn'],
 
+  
+  // Computed
   hashtag: Ember.computed('hashtags', function() {
     if (this.get('hashtags')) {
       let firstTag = this.get('hashtags').split(',').shift();
@@ -14,7 +16,16 @@ export default ShareButton.extend({
     }
   }),
 
-  buildUrl() {
+  
+  // Events
+  click() {
+    let url = this._buildUrl();
+    this.openSharePopup(url);
+  },
+
+
+  // Methods
+  _buildUrl() {
     let quote = this.get('quote') ? `&quote=${this.get('quote')}` : '';
     let hashtag = this.get('hashtag') ? `&hashtag=${this.get('hashtag')}` : '';
     let currentUrl = encodeURIComponent(this.getCurrentUrl());
@@ -22,8 +33,4 @@ export default ShareButton.extend({
     return url;
   },
 
-  click() {
-    let url = this.buildUrl();
-    this.openSharePopup(url);
-  }
 });

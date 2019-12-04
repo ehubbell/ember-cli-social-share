@@ -1,1 +1,1 @@
-export { default } from 'ember-social-share/components/twitter-share-button';
+export { default } from 'ember-cli-social-share/components/twitter-share-button';

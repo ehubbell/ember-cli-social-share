@@ -4,8 +4,10 @@ import layout from '../templates/components/linkedin-share-button';
 export default ShareButton.extend({
   layout,
   shareURL: 'https://www.linkedin.com/shareArticle',
-  classNames: ['linkedin-share-button', 'share-button'],
+  classNames: ['linkedin-share-btn', 'share-btn'],
   hashtags: '',
+
+  
   click() {
     let url = this.get('shareURL');
     url += '?mini=true';

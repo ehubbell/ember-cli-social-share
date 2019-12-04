@@ -4,8 +4,10 @@ import layout from '../templates/components/twitter-share-button';
 export default ShareButton.extend({
   layout,
   shareURL: 'https://twitter.com/intent/tweet',
-  classNames: ['twitter-share-button', 'share-button'],
+  classNames: ['twitter-share-btn', 'share-btn'],
   hashtags: '',
+
+  
   click() {
     let url = this.get('shareURL');
     url += '?text=' + this.get('title');

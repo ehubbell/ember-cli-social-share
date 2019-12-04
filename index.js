@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-social-share'
+  name: 'ember-cli-social-share'
 };

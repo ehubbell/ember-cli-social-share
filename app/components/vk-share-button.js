@@ -1,1 +1,1 @@
-export { default } from 'ember-social-share/components/vk-share-button';
+export { default } from 'ember-cli-social-share/components/vk-share-button';
