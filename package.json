@@ -1,5 +1,5 @@
 {
-  "name": "ember-social-share",
+  "name": "ember-cli-social-share",
   "version": "0.3.4",
   "description": "Social share buttons for EmberJS app that works without meta tags.",
   "directories": {
@@ -12,7 +12,7 @@
     "test": "ember try:each",
     "reset": "rm -rf node_modules/ bower_components/ dist/ tmp/"
   },
-  "repository": "https://github.com/Crabar/ember-social-share",
+  "repository": "https://github.com/ehubbell/ember-cli-social-share",
   "engines": {
     "node": ">= 0.10.0"
   },

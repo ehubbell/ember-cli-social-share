@@ -1,5 +1,5 @@
 {
-  "name": "ember-social-share",
+  "name": "ember-cli-social-share",
   "dependencies": {
     "ember": "^2.18.0",
     "ember-resolver": "^0.1.21",
