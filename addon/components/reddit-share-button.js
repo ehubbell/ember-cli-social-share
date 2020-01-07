@@ -4,7 +4,7 @@ import layout from '../templates/components/reddit-share-button';
 export default ShareButton.extend({
   layout,
   shareURL: 'http://www.reddit.com/submit',
-  classNames: ['reddit-share-btn', 'share-btn'],
+  classNames: ['reddit-share-btn'],
 
 
   click() {

@@ -5,7 +5,7 @@ import layout from '../templates/components/email-share-button';
 export default ShareButton.extend({
   tagName: 'a',
   layout,
-  classNames: ['email-share-btn', 'share-btn'],
+  classNames: ['email-share-btn'],
   attributeBindings: ['target', 'href'],
   target: '_top',
 

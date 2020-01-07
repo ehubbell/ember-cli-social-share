@@ -4,7 +4,7 @@ import layout from '../templates/components/linkedin-share-button';
 export default ShareButton.extend({
   layout,
   shareURL: 'https://www.linkedin.com/shareArticle',
-  classNames: ['linkedin-share-btn', 'share-btn'],
+  classNames: ['linkedin-share-btn'],
   hashtags: '',
 
   

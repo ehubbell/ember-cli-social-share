@@ -4,7 +4,7 @@ import layout from '../templates/components/google-share-button';
 export default ShareButton.extend({
   layout,
   shareURL: '//plus.google.com/share',
-  classNames: ['google-share-btn', 'share-btn'],
+  classNames: ['google-share-btn'],
 
 
   click() {

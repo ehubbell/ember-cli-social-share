@@ -4,7 +4,7 @@ import layout from '../templates/components/twitter-share-button';
 export default ShareButton.extend({
   layout,
   shareURL: 'https://twitter.com/intent/tweet',
-  classNames: ['twitter-share-btn', 'share-btn'],
+  classNames: ['twitter-share-btn'],
   hashtags: '',
 
   
